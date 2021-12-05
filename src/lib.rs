@@ -1,4 +1,6 @@
 mod level;
+pub use level::Level;
+
 #[cfg(test)]
 mod tests {
     #[test]
